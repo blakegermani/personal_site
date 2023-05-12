@@ -1,0 +1,21 @@
+.fading-links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .fading-links a {
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .fading-links a:hover {
+    background-color: #444;
+  }
+  
+  
